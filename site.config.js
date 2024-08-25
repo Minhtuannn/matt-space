@@ -20,7 +20,7 @@ const CONFIG = {
   blog: {
     title: "matt-space",
     description: "welcome to matt-space!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    scheme: "auto", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
@@ -56,7 +56,7 @@ const CONFIG = {
   utterances: {
     enable: false,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      repo: "Minhtuannn/matt-space",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
